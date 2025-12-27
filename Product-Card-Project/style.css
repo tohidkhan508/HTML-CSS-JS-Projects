@@ -1,0 +1,141 @@
+body {
+  background-color: indianred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mainContainer {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: burlywood;
+}
+
+input {
+  height: px;
+  width: 250px;
+  padding: 7px;
+  margin: 17px;
+  font-size: 15px;
+  color: black;
+  border: none;
+}
+
+.btn {
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 3px;
+  font-size: 15px;
+  background-color: aqua;
+}
+
+.productCardContainer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 350px);
+  gap: 40px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.productContainer {
+  border: 2px solid rgba(0, 0, 0, 0.667);
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  background-color: blanchedalmond;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.productContainer:hover {
+  transform: translatey(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardContainer {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 17px;
+  word-wrap: break-word;
+  margin: 3px 0;
+  line-height: 20px;
+  text-align: left !important;
+  overflow: auto;
+}
+
+.cardContainer .MrP {
+  margin: 15px;
+}
+
+.cardContainer h3 {
+  display: inline-block;
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+.cardContainer h3:nth-child(odd) {
+  width: 140px;
+  text-align: left;
+}
+
+.cardContainer h3:nth-child(even) {
+  font-weight: normal;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cardContainer .cardh {
+  display: inline-block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.btnContainer {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.editbtn,
+.deletebtn {
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  margin-left: 30px;
+  background-color: #6495ed;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+.editbtn:hover,
+.deletebtn:hover {
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+#formSubmit {
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-Card-Generator</title>
+    <link rel="stylesheet" href="./style.css"
+  </head>
+  <body>
+    <div class="mainContainer">
+      <form id="myform">
+        <input type="number" id="MRP" placeholder="MRP" /><br />
+        <input type="text" id="productName" placeholder="Product Name" /><br />
+        <input
+          type="number"
+          id="productPrice"
+          placeholder="Product Price"
+        /><br />
+        <input
+          type="number"
+          id="productQuantity"
+          placeholder="Quantity"
+        /><br />
+        <button class="btn" type="submit" id="formSubmit">Submit</button>
+      </form>
+
+      <div class="productCardContainer"></div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
